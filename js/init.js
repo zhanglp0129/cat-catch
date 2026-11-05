@@ -8,7 +8,6 @@ G.blockUrlSet = new Set();    // 屏蔽网址列表
 
 // 避免抓取列表
 G.damnUrl = [
-    /^https:\/\/.*\.douyin\.com\/.*$/i,
 ];
 G.damnUrlSet = new Set();
 
